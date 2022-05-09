@@ -2,7 +2,10 @@ import express from 'express';
 
 const app = express();
 
-app.get('/users', (req, res) => {
+app.use(express.json()); // para o express entender o JSON, antes da rota!
+
+app.post('/feedbacks', (req, res) => {
+    console.log(req.body);
     return res.send('Hello World');
 })
 
