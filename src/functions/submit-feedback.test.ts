@@ -4,18 +4,26 @@
 
 import { SubmitFeedback } from "./submit-feedback"
 
+const createFeedbackSpy = jest.fn();
+const sendMailSpy = jest.fn();
+
 describe('Submit feedback' , () => {
   //teste geral do feedback
   it('should be able to submit a feedback', async() => {
-    const submitFeedback = new SubmitFeedback({create: async() => {}}, {sendMail: async() => {}})
+    const submitFeedback = new SubmitFeedback({create: createFeedbackSpy}, {sendMail: sendMailSpy})
 
     await expect(submitFeedback.execute({
       type: 'BUG',
       comment: 'This is a bug',
       screenshot: 'data:image/png;base64,81293adjsahdjaisd'
     })).resolves.not.toThrow();
+
+    expect(createFeedbackSpy).toHaveBeenCalled();
+    expect(sendMailSpy).toHaveBeenCalled();
   })
   ///////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
   
   //teste do tipo de feedback
@@ -31,6 +39,8 @@ describe('Submit feedback' , () => {
   ///////////////////////////////////////////////////////////////////////////////////////////////
 
 
+
+
   //teste do comentário do feedback
   it('should not be able to submit feedback without comment', async() => {
     const submitFeedback = new SubmitFeedback({create: async() => {}}, {sendMail: async() => {}})
@@ -42,6 +52,8 @@ describe('Submit feedback' , () => {
     })).rejects.toThrow();
   })
   ///////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 
   //teste da screenshot do feedback
