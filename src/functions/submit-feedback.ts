@@ -13,7 +13,20 @@ export class SubmitFeedback {
     private mailAdapter: MailAdapter,
   ) { }
 
+
   async execute(request: SubmitFeedbackRequest) {
+    if(!request.type){
+      throw new Error('Type is required')
+    }
+    
+    if(!request.comment){
+      throw new Error('Comment is required')
+    }
+
+    if(request.screenshot && !request.screenshot.startsWith('data:image/png;base64')) {
+      throw new Error('Screenshot format invalid');
+  }
+
     await this.feedbacksRepository.create({
       type: request.type,
       comment: request.comment,
