@@ -6,7 +6,8 @@
 <p align="center">
   <a href="#sobre">Sobre</a>&nbsp;&nbsp; - &nbsp;&nbsp;
   <a href="#prototipo">Protótipo</a>&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;
-  <a href="#tecnologia">Tecnologias</a>&nbsp;&nbsp;
+  <a href="#tecnologia">Tecnologias</a>>&nbsp;&nbsp; - &nbsp;&nbsp;
+  <a href="#licenca">Licença</a>
 </p>
 
 
@@ -32,6 +33,7 @@
       <img src="https://user-images.githubusercontent.com/82816967/168617123-75d8e704-8af9-45dc-b553-f5e4adf9fd31.png" width=""/>
    </div>
    
+   <br/>
 <br/><a name="tecnologia"></a>
 ## Tecnologias
    <p>
@@ -49,4 +51,4 @@
 
 <br/><a name="licenca"></a>
 ## Licença
-   Projeto sobre licença [MIT]()
+   Projeto sobre licença [MIT](LICENSE.md)
