@@ -24,7 +24,7 @@
    <a name="prototipo"></a>
 ## Protótipo
    
-   Para acessar o front-end acesse <a target="_blank" href="https://web-feedback-widget-navy.vercel.app/">Esse link.</a>
+   Para acessar o front-end acesse <a href="https://web-feedback-widget-navy.vercel.app/" target="_blank">Esse link.</a>
 
    Deploy do back-end foi realizado no railway, como consta na imagem abaixo, integrando o repositório do github juntando com o banco, o PostgreSQL. Vale ressaltar que qualquer push no projeto um novo deploy será realizado.
    <div align="center">
