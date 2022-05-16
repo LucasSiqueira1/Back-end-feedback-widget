@@ -6,7 +6,7 @@
 <p align="center">
   <a href="#sobre">Sobre</a>&nbsp;&nbsp; - &nbsp;&nbsp;
   <a href="#prototipo">Protótipo</a>&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;
-  <a href="#tecnologia">Tecnologias</a>&nbsp;&nbsp; - &nbsp;&nbsp;
+  <a href="#tecnologia">Tecnologias</a>&nbsp;&nbsp;
 </p>
 
 
@@ -24,7 +24,7 @@
    <a name="prototipo"></a>
 ## Protótipo
    
-   Para acessar o front-end acesse [esse link](https://web-feedback-widget-navy.vercel.app/)
+   Para acessar o front-end acesse <a target="_blank" href="https://web-feedback-widget-navy.vercel.app/">Esse link.</a>
 
    Deploy do back-end foi realizado no railway, como consta na imagem abaixo, integrando o repositório do github juntando com o banco, o PostgreSQL. Vale ressaltar que qualquer push no projeto um novo deploy será realizado.
    <div align="center">
