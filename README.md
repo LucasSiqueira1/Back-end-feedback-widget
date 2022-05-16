@@ -29,7 +29,7 @@
    Deploy do back-end foi realizado no railway, como consta na imagem abaixo, integrando o repositório do github juntando com o banco, o PostgreSQL. Vale ressaltar que qualquer push no projeto um novo deploy será realizado.
    <div align="center">
    <br/>
-      <img src="" width=""/>
+      <img src="https://user-images.githubusercontent.com/82816967/168617123-75d8e704-8af9-45dc-b553-f5e4adf9fd31.png" width=""/>
    </div>
    
 <br/><a name="tecnologia"></a>
