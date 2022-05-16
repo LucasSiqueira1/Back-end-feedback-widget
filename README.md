@@ -31,9 +31,9 @@
    <div align="center">
    <br/>
       <img src="https://user-images.githubusercontent.com/82816967/168617123-75d8e704-8af9-45dc-b553-f5e4adf9fd31.png" width=""/>
-   </div>
+   </div> <br/>
    
-   <br/>
+
 <br/><a name="tecnologia"></a>
 ## Tecnologias
    <p>
