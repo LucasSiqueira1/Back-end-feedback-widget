@@ -39,6 +39,7 @@ export class SubmitFeedback {
         `<div style="font-family: sans-serif; font-size: 16px; color: #111;">`,
         `<p>Tipo do feedback: ${request.type}</p>`,
         `<p>Comentário do feedback: ${request.comment}</p>`,
+        request.screenshot ? `<img src="${request.screenshot}"/>` : null,
         `</div>`
       ].join('\n')
     })
